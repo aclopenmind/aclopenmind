@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The Manhattan Three | New York Historical Case Files</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="A retrospective account of the notorious Manhattan Three and the unusual incidents attributed to them in New York, 1910–1915.">
+    <style>
+      :root {
+        --ink: #22211e;
+        --muted: #6b675e;
+        --paper: #f6f4ee;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font: 18px/1.7 Georgia, serif;
+      }
+
+      a {
+        color: inherit;
+        text-underline-offset: 3px;
+      }
+
+      header {
+        max-width: 1060px;
+        margin: auto;
+        padding: 18px 28px 0;
+      }
+
+      .topline {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--ink);
+        color: var(--muted);
+        font-size: 11px;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+
+      .brand {
+        padding: 24px 0;
+        border-bottom: 3px double var(--ink);
+        text-align: center;
+      }
+
+      .brand-name {
+        font-size: clamp(28px, 5vw, 48px);
+        line-height: 1.15;
+        letter-spacing: -.03em;
+      }
+
+      .brand p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        font-size: 11px;
+        letter-spacing: .16em;
+        text-transform: uppercase;
+      }
+
+      .overline,
+      .byline {
+        color: var(--muted);
+        font-size: 11px;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+      }
+
+      .overline {
+        margin-bottom: 14px;
+      }
+
+      .byline {
+        margin-top: 20px;
+      }
+
+      .heroaside .opening:first-letter {
+        float: left;
+        padding: 7px 8px 0 0;
+        font-size: 60px;
+        line-height: .85;
+      }
+
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 28px;
+      }
+
+      h1 {
+        font-size: clamp(38px, 6vw, 60px);
+        line-height: 1.1;
+        margin: 0 0 20px;
+      }
+
+      h2 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin: 28px 0 16px;
+      }
+
+      p {
+        margin: 0 0 20px;
+      }
+
+      .intro {
+        text-align: center;
+        margin-bottom: 32px;
+      }
+
+      .intro p {
+        font-size: 21px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+        align-items: start;
+      }
+
+      figure {
+        margin: 0 0 28px;
+      }
+
+      figure img {
+        width: 100%;
+        display: block;
+        filter: grayscale(1);
+      }
+
+      .caption {
+        margin-top: 8px;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .section {
+        margin-top: 28px;
+      }
+
+      .photoaside {
+        max-width: 640px;
+        margin: 28px auto;
+      }
+
+      blockquote {
+        margin: 24px 0;
+        padding-left: 20px;
+        border-left: 2px solid var(--muted);
+        font-style: italic;
+      }
+
+      .archive {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      .foot {
+        border-top: 1px solid #c6c1b4;
+        padding-top: 20px;
+        margin-top: 32px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 650px) {
+        header {
+          padding: 14px 20px 0;
+        }
+
+        .topline span:nth-child(2) {
+          display: none;
+        }
+
+        .wrap {
+          padding: 28px 20px;
+        }
+
+        .hero,
+        .archive {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="topline">
+        <span>New York Historical Case Files</span>
+        <span>Manhattan · Archival Features &amp; Retrospectives</span>
+        <span>Est. 1913</span>
+      </div>
+      <div class="brand">
+        <div class="brand-name">The New York Historical Review</div>
+        <p>True stories from the city's made-up past</p>
+      </div>
+    </header>
+    <main class="wrap">
+      <section class="intro" id="account">
+        <div class="overline">New York · Historical Retrospective · 1913</div>
+        <h1>The Manhattan Three</h1>
+        <p>
+          The three men whose reign of disorder unsettled 
+          early twentieth-century Manhattan.
+        </p>
+        <div class="byline">From the city histories desk · Archival feature</div>
+      </section>
+      <div class="hero">
+        <figure>
+          <img src="images/man_three.png" alt="Stylized fictional portrait of Ron, Ronnie and Ronald in period clothing in New York Harbor">
+          <figcaption class="caption">
+            The Manhattan Three: Ron, Ronnie and Ronald. An artist's interpretation of the three men.
+          </figcaption>
+        </figure>
+        <div class="heroaside">
+          <p class="opening">
+            In the summer of 1913, three men took an unusual interest in the
+            everyday tranquility of New Yorkers. Ron, Ronnie, and Ronald,
+            collectively the Manhattan Three, became known for their meticulous
+            yet oblique approach to crime.
+          </p>
+          <p>
+            Several incidents involving produce, hats, balloons, and the disruption
+            of otherwise uneventful mornings were credited to the dastardly
+            trio. Yet, the identity of the perpetrators could rarely be
+            established to the satisfaction of anyone except the alleged
+            victims.
+          </p>
+          <p>The most troubling accusation, however, arose from an unlikely setting: a breakfast table.</p>
+        </div>
+      </div>
+      <section class="section">
+        <div class="features">
+          <div>
+            <p>
+              At the beginning of the twentieth century, Manhattan's streets were crowded with
+              vendors, horse-drawn wagons, streetcars and pedestrians. In that environment,
+              relatively small intrusions into public routine could produce an outsized sense of
+              fear.
+            </p>
+            <p>
+              The activities of the Manhattan Three exploited precisely this
+              fact. The quiet nature of their deeds was a catalyst that began an era of distrust and suspicion. Nothing of substantial value was taken—a fact that brought no respite to the worried public. What hidden motive drove these men? The unknown was more frightening than the simple dangers of traditional gangs, and their infrequent and inexplicable behavior
+              acquired the vocabulary of an organized criminal campaign.
+            </p>
+          </div>
+          <figure class="photoaside">
+            <img src="images/nyc-pushcart-market-1910.jpg" alt="Actual period photograph of a New York City pushcart market, circa 1910" loading="lazy">
+            <figcaption class="caption">
+              A New York City pushcart market, c. 1910. Historical photograph: George Grantham Bain
+              Collection, Library of Congress.
+              <a href="https://www.loc.gov/pictures/item/2016648988/" target="_blank" rel="noopener">Original
+              record ↗</a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section" id="incidents">
+        <div class="case">
+          <div>
+            <p>
+              One busy market morning, several apples—at least three—were
+              discovered bearing small faces drawn in dark pigment.
+              Some displayed a mustache; others appeared to wear a look of
+              reproach.
+              No witnesses could say precisely when the faces
+              appeared.
+            </p>
+          </div>
+        </div>
+        <div class="case">
+          <div>
+            <p>
+              A number of pedestrians complained of sudden reports resembling gunfire, later traced
+              to the bursting of common balloons. The practice was said to have been carried out
+              immediately behind otherwise unsuspecting citizens. Conversations
+              ended abruptly. The offenders were never conclusively identified.
+              Psychiatrists saw an increase in severe cases of balloonaphobia, a debilitating disorder that, among those affected, stole joy from common celebratory events.
+            </p>
+          </div>
+        </div>
+        <div class="case">
+          <div>
+            <p>
+              At a luncheon, several gentlemen's hats were allegedly rearranged while their owners
+              were dining. Two guests are said to have departed wearing unfamiliar bowlers. The
+              subsequent investigation yielded neither an explanation nor any convincing account of
+              a motive. When interviewed, one man exclaimed in alarm and distress, "It was not my hat."
+            </p>
+          </div>
+        </div>
+        <div class="case">
+          <div>
+            <h2>The breakfast incident</h2>
+            <p>
+              The most chilling account was furnished by one Tom
+              Thomason, a respectable gentleman of settled habits, who began an otherwise
+              ordinary morning with a bowl of plain oatmeal.
+            </p>
+            <div>
+              <p>
+                Having eaten nearly the entire serving, Mr. Thomason discovered, at the very bottom,
+                <strong>one raisin</strong>. The oatmeal had been prepared plain, as was his custom.
+                Upon making the unsettling discovery, Mr. Thomason was immobilized with shock. Only when his brother visited hours later did Mr. Thomason regain the wherewithal to tear his eyes away from the horrible sight—that single raisin, wrinkled and unanticipated.
+              </p>
+              <p>
+                There were no witnesses, no physical evidence connecting the fruit to any person,
+                and no proof that a crime had occurred. Thomason nevertheless held an unshakable
+                conviction: it was Ronnie, Ronald, or Ron. Ron, in particular, was believed to have had a raisin at some point as a child or adult.
+                He had no proof. But in his heart of hearts, he knew it was the Manhattan Three.
+                In his words, "It was [...] a big deal. It was [...] a raisin."
+              </p>
+              <p>
+                Nothing in the surviving account establishes how the raisin entered the bowl.
+                Thomason's certainty, however, appears never to have diminished. And that raisin, that chthonian intruder, still strikes fear into the hearts of his descendants. Will they strike again? Next time, will there be two raisins? Three? They can only hope and tread carefully with that sword of Damocles prepared to strike.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="sources">
+        <div class="archive">
+          <figure>
+            <img src="images/bain-pushcart-market.jpg" alt="Historical New York push cart market photograph from Bain collection" loading="lazy">
+            <figcaption class="caption">
+              Push cart market, New York, early twentieth century. Bain News Service.
+              <a href="https://www.loc.gov/pictures/item/2014699047/" target="_blank" rel="noopener">Library
+              of Congress ↗</a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <footer class="foot">
+        <div>
+          <p>
+          (Nothing on this page is real. Except for the pictures. Those are real.)
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
